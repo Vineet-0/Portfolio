@@ -67,6 +67,7 @@ body {
 }
 
 .home-content {
+  margin-bottom: 70px;
   max-width: 600px;
 }
 
@@ -568,9 +569,14 @@ section{
   color: #0EF;
 }
 
+.portfolio {
+  width: 100%;
+}
 .portfolio-content {
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(356px,auto));
+  gap: 1.2rem;
 }
 
 .row {
@@ -597,7 +603,7 @@ section{
   bottom: 0;
   overflow: hidden;
   display: flex;
-  flex-direction: coloumn;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -618,11 +624,14 @@ section{
   line-height: 1.8;
 }
 
+.layer a{
+  text-decoration: none;
+}
+
 .layer i{
-  color: #ff004f;
   margin-top: 20px;
   font-size: 20px;
-  background: #fff;
+  background: transparent;
   width: 60px;
   height: 60px;
   display: flex;
@@ -773,8 +782,8 @@ section{
 
 .top {
   position: fixed;
-  bottom: 2.1rem;
-  right: 2.1rem;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .top i{
@@ -782,7 +791,7 @@ section{
   background: #0ef ;
   font-size: 20px;
   padding: 10px;
-  border-radius: 0.5rem;
+  border-radius: 50%;
 }
 
 
