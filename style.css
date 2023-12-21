@@ -166,13 +166,13 @@ body {
 }
 
 .about-img img {
-    padding: 20px;
+    /* padding: 20px; */
     max-width: 630px;
     height: auto;
     width: 100%;
     border-radius: 8px;
     border: 6px solid #0ef;
-    border: 2px solid #ededed;
+    border: 3px solid #ededed;
     border-radius: 50%;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan;
     transition: all 0.5s ease;
@@ -224,6 +224,10 @@ body {
 
 .sub-title span{
   color: #0ef;
+}
+
+.sub-title.Skills{
+  margin-top: 30px;
 }
 
 .container {
@@ -372,7 +376,7 @@ section{
 }
 
 .progress-line.css span{
-  width: 60%;
+  width: 98%;
 }
 
 .progress-line.Javascript span{
@@ -380,11 +384,11 @@ section{
 }
 
 .progress-line.cpp span{
-  width: 50%;
+  width: 95%;
 }
 
 .progress-line.react span{
-  width: 75%;
+  width: 80%;
 }
 
 .progress-line span::after{
@@ -405,7 +409,7 @@ section{
 }
 
 .progress-line.css span::after{
-  content: "60%";
+  content: "98%";
 }
 
 .progress-line.Javascript span::after{
@@ -413,11 +417,11 @@ section{
 }
 
 .progress-line.cpp span::after{
-  content: "50%";
+  content: "95%";
 }
 
 .progress-line.react span::after{
-  content: "75%";
+  content: "80%";
 }
 
 .progress-line span::before{
@@ -578,6 +582,8 @@ section{
   grid-template-columns: repeat(auto-fit,minmax(356px,auto));
   gap: 1.2rem;
 }
+
+
 
 .row {
   position: relative;
@@ -792,6 +798,14 @@ section{
   font-size: 20px;
   padding: 10px;
   border-radius: 50%;
+}
+
+.mt{
+  margin-top: 20px;
+}
+
+.mt2{
+  margin-top: -40px;
 }
 
 
